@@ -57,9 +57,4 @@ CREATE TABLE incidencias (
 	FK_pedido INT NOT NULL FOREIGN KEY
 		REFERENCES pedidos(id_pedido)
 )
-CREATE TABLE pedidos_incidencias (
-	FK_pedido INT NOT NULL FOREIGN KEY
-		REFERENCES pedidos(id_pedido),
-	FK_incidecia INT NOT NULL FOREIGN KEY
-		REFERENCES incidencias(id_incidencia)
-)
+
