@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    margin:0; 
+}
+main{
+    background-image: url(Camiones/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1366px;
+    min-width: 900px;
+    flex: 1;
+    
+}
+footer{
+    background-color:black;
+    text-align: center;
+    color:white;
+    width: 100%;
+    opacity: 0.9;
+}
